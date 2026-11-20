@@ -6,12 +6,12 @@
 
 | 文件 | 内容 |
 | --- | --- |
-| `Status.java` | `enum`：`TODO`、`DOING`、`DONE` |
-| `Task.java` | `record`：`id`、`title`、`status`、`createdAt` |
+| `TaskStatus.java` | `enum`：`TODO`、`DOING`、`DONE` |
+| `Task.java` | `record`：`id`、`title`、`description`、`status`、`createdAt` |
 | `TaskStore.java` | 用 `List<Task>` 保存任务，提供新增、列出、按状态筛选 |
 | `Main.java` | 菜单循环，读取控制台输入并调用 `TaskStore` |
 
-`Main.java` 已建好空壳，其余类由你自己创建。
+代码已写好一个可运行版本。建议先按验收清单跑一遍，再合上文件自己重写一次。
 
 ## 命令
 
