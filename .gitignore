@@ -1,0 +1,23 @@
+# Java / Maven
+target/
+*.class
+*.jar
+!.mvn/wrapper/maven-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+.vscode/settings.json
+.vscode/launch.json
+
+# OS
+.DS_Store
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+
+# Logs
+*.log
